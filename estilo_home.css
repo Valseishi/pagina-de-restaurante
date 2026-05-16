@@ -24,10 +24,13 @@ header nav a{
     color: #D0B9BA;
     text-decoration: none;
     font-weight: bold;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease; 
 }
 
 header nav a:hover {
     color: #ffffff;
+    transform: scale(1.1);  
 }
 
 .cabeza{
@@ -43,10 +46,8 @@ header img{
 .container{
     justify-content: center;
     display: flex;
-
     border-radius: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
     height: 200px;
     gap: 50px;
     margin-right: 10px;
@@ -54,6 +55,20 @@ header img{
 }
 
 .container img{
-    width: 300px;
+    width: 200px;
+    height: 200px;
+}
+
+.opcion{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 30px;
     height: 300px;
+    box-shadow: 0px 0px 10px 0px #b7b4b4;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.opcion:hover{
+    transform: scale(1.1);  
 }
