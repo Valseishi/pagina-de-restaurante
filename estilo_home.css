@@ -3,9 +3,11 @@ fondo: #f1faee
 titulares e información clave: #264653 
 para estructura (barras, iconos): #2a9d8f 
 precios destacados y resaltados: #e9c46a y #f4a261 */
-
+body{
+    background-color: #f2f5f1;
+}
 header{
-    background-color: #940606;
+    background-color: #6D1615;
     padding:  0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -19,15 +21,39 @@ header nav{
 }
 
 header nav a{
-    color: rgb(244, 243, 190);
+    color: #D0B9BA;
     text-decoration: none;
     font-weight: bold;
 }
+
+header nav a:hover {
+    color: #ffffff;
+}
+
 .cabeza{
     display: flex;
     color: blanchedalmond;
     padding: 20px;
 }
+
 header img{
     margin-right: 10px;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    height: 200px;
+    gap: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.container img{
+    width: 300px;
+    height: 300px;
 }
