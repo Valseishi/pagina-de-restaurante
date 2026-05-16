@@ -3,6 +3,42 @@ fondo: #f1faee
 titulares e información clave: #264653 
 para estructura (barras, iconos): #2a9d8f 
 precios destacados y resaltados: #e9c46a y #f4a261 */
+/* =======================================================
+   ESTILOS PARA PANTALLAS PEQUEÑAS (MÓVILES, MÁXIMO 768px)
+   ======================================================= */
+@media (max-width: 768px) {
+    
+    /* El header cambia de fila a columna para que quepa todo */
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    /* Pega el logo al centro en celulares */
+    header img {
+        margin-left: 0;
+        max-width: 150px; /* Reduce un poco el tamaño en pantallas chicas */
+    }
+
+    /* El menú de navegación también se acomoda en fila centrada o columna */
+    header nav {
+        flex-direction: row; /* Mantener en línea si son pocos enlaces */
+        flex-wrap: wrap;     /* Si no caben, saltan a la siguiente línea */
+        justify-content: center;
+        gap: 15px;
+        margin-right: 0;     /* Quitamos el margen derecho que tenía en PC */
+    }
+
+    /* Ajustamos tus tarjetas .opcion para que no queden gigantes */
+    .opcion {
+        width: 90%;          /* Ocupa casi todo el ancho de la pantalla móvil */
+        height: auto;        /* Deja que el alto se adapte al contenido */
+        margin: 10px auto;   /* Las centra una debajo de la otra */
+    }
+}
+
 body{
     background-color: #f2f5f1;
 }
