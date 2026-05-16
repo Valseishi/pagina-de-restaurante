@@ -37,4 +37,4 @@ Si quieres ver el proyecto en tu navegador desde tu computadora, sigue estos pas
    Dobles clics en `Home.html` para abrirlo en tu navegador web favorito (Chrome, Edge, Firefox, etc.).
 
 ## ✒️ Autor
-* **[Tu Nombre o Nombre de Usuario]** - *Desarrollo Completo* - [Valseishi](https://github.com)
+* **[Valerie Pérez]** - *Desarrollo Completo* - [Valseishi](https://github.com)
