@@ -1,0 +1,33 @@
+/*PALETA DE COLORES:
+fondo: #f1faee 
+titulares e información clave: #264653 
+para estructura (barras, iconos): #2a9d8f 
+precios destacados y resaltados: #e9c46a y #f4a261 */
+
+header{
+    background-color: #940606;
+    padding:  0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header nav{
+    background-color: #964444;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+header nav a{
+    color: rgb(244, 243, 190);
+    text-decoration: none;
+    font-weight: bold;
+}
+.cabeza{
+    display: flex;
+    color: blanchedalmond;
+    padding: 20px;
+}
+header img{
+    margin-right: 10px;
+}
